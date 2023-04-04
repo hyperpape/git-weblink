@@ -41,7 +41,7 @@ fi
 
 
 if [[ "$HOST" =~ "https://github.com" ]]; then 
-    echo "$REPO_URL/$BRANCH/blob/$BRANCH/$REL_PATH"
+    echo "$REPO_URL/blob/$BRANCH/$REL_PATH"
 else
     # gitlab format
     # would this be better with /-/blob/ instead of /-/tree/? 
